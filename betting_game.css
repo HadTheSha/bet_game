@@ -1,0 +1,22 @@
+div{
+background-color:#DCDCDC;
+width: 700px;
+height: 200px;
+margin:20px auto;
+font-family: serif;
+border-radius:5px;
+}
+p{
+    padding: 10px;
+    margin :15 px;
+}
+
+#money{
+    background-color:008000 ;
+    height: 20px;
+    margin-top:-26px;    
+}
+
+ul{
+  inline:;
+}

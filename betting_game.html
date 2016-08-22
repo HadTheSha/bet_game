@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="betting_game.css"/>
+    <script src="jquery-3.1.0.js"></script>
+    <script src="betting_game.js"></script>
+  </head>
+  <body>
+    <div id = "continer">
+      <form action="">
+        <p id = "The rules">
+          Try to bet on number that will be generated to you in the range from 0 to 10 You'll start off wiht $100
+          A right guess, you win the amount u bet on!
+          A Wrong one.. well, you say!
+          alert A close one .. none loses!  
+        </p>
+        <ul>
+          <li><label>The amount of money you'll bet on :</label></li>
+          <input type="text" id="money_value" name="money_value" value="" />
+         <li> <label>The number of your guess:</label></li>
+          <input type="text" id="number_value" name="number_value" value="" />
+          <li><input type="button" id="the_button" value="Go! "/></li>
+          <li><input type="button" id="restart" value="Restart "/></li>
+        </ul>
+      </form>
+    </div>
+    <div id ="money"></div>
+  </body>
+</html>
